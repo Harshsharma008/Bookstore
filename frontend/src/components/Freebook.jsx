@@ -48,7 +48,7 @@ function Banner() {
                 <h1 className="font-semibold pb-4">
                     Free Courses Offered
                 </h1>
-                <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum</p>
+                <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum</p>
 
             </div>
             <div>

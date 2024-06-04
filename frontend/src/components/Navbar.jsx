@@ -19,19 +19,19 @@ function Navbar() {
     }, [])
     const navItems = (
         <>
-            <li><a>Home</a></li>
-            <li><a>Course</a></li>
-            <li><a>Contact</a></li>
-            <li><a>About</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/courses">Course</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/about">About</a></li>
         </>
     )
     return (
 
-        <div className={`max-w-screen-2xl container mx-auto md:px-20 px-4 z-50 fixed ${sticky ?
+        <div className={`max-w-screen-2xl container my-0     mx-auto md:px-0 px-4 z-50 fixed  ${sticky ?
             "sticky-navbar shadow-md bg-base-200 duration-300 transition-all ease-in-out" :
             ""
             }`} >
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-200">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
