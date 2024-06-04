@@ -27,9 +27,9 @@ function Navbar() {
     )
     return (
 
-        <div className={`max-w-screen-2xl container mx-auto md:px-20 px-4 ${sticky ?
-                "sticky-navbar shadow-md bg-base-200 duration-300 transition-all ease-in-out" :
-                ""
+        <div className={`max-w-screen-2xl container mx-auto md:px-20 px-4 z-50 fixed ${sticky ?
+            "sticky-navbar shadow-md bg-base-200 duration-300 transition-all ease-in-out" :
+            ""
             }`} >
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
