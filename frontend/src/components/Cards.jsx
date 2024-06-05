@@ -3,7 +3,7 @@
 function Cards({ item }) {
     console.log(item);
     return (
-        <div className="mt-5 mb-4">
+        <div className="mt-5 mb-4 hover:scale-105 duration-200">
 
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure><img src={item.image} alt="Shoes" /></figure>

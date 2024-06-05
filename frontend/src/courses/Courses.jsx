@@ -2,9 +2,9 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Course from '../course/Course'
-import list from '../../public/list.json'
+
 function Courses() {
-    console.log(list);
+
     return (
         <div>
             <Navbar />
