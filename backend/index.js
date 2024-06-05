@@ -2,6 +2,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
+// import bookRoute from "./route/book.route.js"
 const app = express();
 
 dotenv.config();
@@ -14,11 +15,13 @@ try {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     });
-    console.log("connected to database");
+    console.log("Hello Database");
 } catch (error) {
     console.log("Error:", error);
 }
 
+// defining routes
+// app.use('/', bookRoute)
 
 
 app.listen(PORT, () => {
